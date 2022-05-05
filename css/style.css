@@ -52,7 +52,7 @@ misma seccion */
   padding: 400px;
 }
 
-/* Similar a extend */
+/* Similar a extend solo que puedo agregar el valor a la propiedad cuando quiero */
 .magic {
   transform: scale(2);
 }
