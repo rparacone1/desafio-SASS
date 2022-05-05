@@ -5,8 +5,9 @@
 @import 'base/colors';
 @import 'base/extends';
 @import 'base/operaciones';
+@import 'base/mixins';
 
-div{display: flex; justify-content: center;;
+.flexBox{display: flex; justify-content: center;;
     div{
         img{
             div{
@@ -22,4 +23,10 @@ div{display: flex; justify-content: center;;
     }
 }
 
+.olz{
+    display: flex; justify-content: center;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
 

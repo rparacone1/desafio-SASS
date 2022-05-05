@@ -38,16 +38,39 @@ misma seccion */
 
 /* Nos permite crear paquetes de propiedades */
 /* placeholder = % + nombre {} */
+.olz {
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.olz {
+  background-color: red;
+}
+
 .button {
   padding: 400px;
 }
 
-div {
+/* Similar a extend */
+.magic {
+  transform: scale(2);
+}
+
+.flexBox {
   display: flex;
   justify-content: center;
 }
-div div img div img div img {
+.flexBox div img div img div img {
   color: black;
+}
+
+.olz {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

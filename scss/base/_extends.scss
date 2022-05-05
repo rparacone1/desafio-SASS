@@ -2,3 +2,16 @@
 
 /* placeholder = % + nombre {} */
 
+
+%mensaje{
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.olz{
+    background-color: red;
+    @extend %mensaje
+}
+

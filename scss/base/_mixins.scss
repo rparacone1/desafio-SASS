@@ -1,0 +1,10 @@
+/* Similar a extend */
+
+@mixin hola($valor){
+    transform: ($valor);
+}
+
+.magic{
+    @include hola(scale(2))
+}
+
