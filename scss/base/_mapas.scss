@@ -1,0 +1,29 @@
+/* Mapas nos permiten tener un objeto que contiene distintos valores para una 
+misma seccion */
+
+/*Se arman con () y dentro tienen una key y un valorr*/
+$perfil-standard: (
+    bg-color-standard: red,
+    border-standard: 1px solid black,
+    font-standard: 2rem
+ );
+ 
+ $perfil-premium: (
+     bg-color-premium: gold,
+     border-premium: 2px solid black,
+     font-premium: 3.6em
+ );
+
+ #premium {
+     font-size: map-get($perfil-premium, font-premium);
+ }
+
+
+#standard{
+    background-color: map-get($perfil-standard, bg-color-standard);
+}
+
+#standard{
+    font-size: map-get($perfil-standard, font-standard);
+}
+ 

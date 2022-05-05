@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+}
+
+/* Mapas nos permiten tener un objeto que contiene distintos valores para una 
+misma seccion */
+/*Se arman con () y dentro tienen una key y un valorr*/
+#premium {
+  font-size: 3.6em;
+}
+
+#standard {
+  background-color: red;
+}
+
+#standard {
+  font-size: 2rem;
+}
+
+.border-menu {
+  border-bottom: 1px solid #330000;
+}
+
+.border-menu {
+  border-top: 1px solid lighten #090, 20%;
+}
+
+.bg-nav {
+  background-color: #090;
+}
+.bg-nav:hover {
+  background-color: #4d4d00;
+}
+
+.productos {
+  color: rgba(153, 0, 0, 0.8);
+}
+
+/* Nos permite crear paquetes de propiedades */
+/* placeholder = % + nombre {} */
+.button {
+  padding: 400px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+div div img div img div img {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

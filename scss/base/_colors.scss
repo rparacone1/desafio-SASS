@@ -1,0 +1,22 @@
+$rojo: #900;
+$verde: #090;
+
+.border-menu {
+    border-bottom: 1px solid darken($rojo, 20%);
+}
+
+.border-menu {
+    border-top: 1px solid lighten ($verde, 20%);
+}
+
+.bg-nav{
+    background-color: $verde;
+    &:hover{
+        background-color: mix($verde, $rojo);
+    }
+}
+
+.productos {
+    color: rgba($rojo, 0.8);
+}
+

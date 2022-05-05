@@ -1,0 +1,25 @@
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'base/listas';
+@import 'base/mapas';
+@import 'base/colors';
+@import 'base/extends';
+@import 'base/operaciones';
+
+div{display: flex; justify-content: center;;
+    div{
+        img{
+            div{
+                img{
+                    div{
+                        img{
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
